@@ -1,0 +1,25 @@
+{
+  "name": "@tribeplatform/nest-logger",
+  "version": "1.0.9",
+  "description": "A NestJS module using @tribeplatform/node-logger",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Tribe Community Platform",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "publish": "npm publish"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.6"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.11",
+    "@nestjs/config": "^2.2.0",
+    "@tribeplatform/node-logger": "^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.6"
+  }
+}
